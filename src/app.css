@@ -1,0 +1,18 @@
+body {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/110/386/original/images.jpg?1705152962);
+    background-size: cover;
+}
+
+.navbar-brand,
+.heading {
+         font-family: "Rubik Maps",system-ui;
+         font-weight: 400;
+}
+
+.heading {
+    text-align: center;
+    font-size: 48px;
+    position: relative;
+    bottom: -125px;
+}
+
