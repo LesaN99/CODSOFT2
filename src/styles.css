@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #EBECF0;
+    --heading-font-family: "Rubik Maps",
+        system-ui;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+h2 {
+    font-family: var(--default-font-family);
+    font-size: 48px;
+    margin: 60px;
+
+}
+
+.navbar-brand,
+.heading {
+    font-family: var(--heading-font-family);
+    font-weight: 400;
+}
+
+.contact-box {
+    background: var(--primary-color);
+    padding: 20px;
+}
+
+footer .social-media-links a {
+    margin: 0 20px;
+    color: black;
+    background: #D3D3D3;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+    margin-top: 20px;
+}

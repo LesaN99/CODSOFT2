@@ -1,11 +1,23 @@
+:root {
+    --primary-color: #EBECF0;
+    --heading-font-family: "Rubik Maps",
+        system-ui;
+        --default-font-family:  "Poppins", sans-serif;
+}
+
 body {
     background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/110/386/original/images.jpg?1705152962);
     background-size: cover;
 }
-
+h3{
+    font-family: var(--default-font-family);
+    font-size: 35px;
+    font-weight: 400;
+    
+}
 .navbar-brand,
 .heading {
-         font-family: "Rubik Maps",system-ui;
+         font-family: var(--heading-font-family);
          font-weight: 400;
 }
 
@@ -14,5 +26,19 @@ body {
     font-size: 48px;
     position: relative;
     bottom: -125px;
+}
+
+.btn-branding {
+    padding: 15px 30px;
+    color: black;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 4px;
+    background: var(--primary-color);
+    position: relative;
+    bottom: -200px;
+    right: -600px;
 }
 
