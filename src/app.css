@@ -9,12 +9,7 @@ body {
     background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/110/386/original/images.jpg?1705152962);
     background-size: cover;
 }
-h3{
-    font-family: var(--default-font-family);
-    font-size: 35px;
-    font-weight: 400;
-    
-}
+
 .navbar-brand,
 .heading {
          font-family: var(--heading-font-family);

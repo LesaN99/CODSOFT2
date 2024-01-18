@@ -5,18 +5,150 @@
     --default-font-family: "Poppins", sans-serif;
 }
 
-h2 {
+h1 {
     font-family: var(--default-font-family);
     font-size: 48px;
     margin: 60px;
+    font-weight: bold;;
 
 }
 
+h2,h3 {
+    font-family: var(--default-font-family);
+    font-size: 35px;
+    font-weight: 400;
+
+}
+P {
+    font-family: var(--default-font-family);
+}
 .navbar-brand,
 .heading {
     font-family: var(--heading-font-family);
     font-weight: 400;
 }
+
+.hero {
+    position: relative;
+    bottom: -100px;
+}
+
+.brand {
+    position: relative;
+    right: -450px;
+    padding: 5px;
+}
+.product {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.color1 {
+    background-color: #A06536;
+}
+.color2 {
+    background-color: #FDD2BA;
+}
+.color3 {
+    background-color: #774A29;
+}
+.color4 {
+    background-color: #FCE4C6;
+}
+
+.color5{
+    background-color: #C77EAB;;
+}
+
+.color6 {
+    background-color: #7F283A;
+}
+
+.color7 {
+     background-color: #F37377;
+}
+
+.color8 {
+    background-color: #8C3131;
+}
+
+.color9 {
+    background-color: #432221;
+}
+
+.color10 {
+    background-color: #6a4734;;
+}
+
+
+.color11 {
+    background-color: #977e6a;
+}
+
+.color12 {
+    background-color: #9a6b3f;
+}
+
+.color13 {
+    background-color: #412d24;
+}
+
+.color14 {
+    background-color: #995d28;
+}
+
+.color15 {
+    background-color: #eeded0;
+}
+
+.color16 {
+    background-color: #ccb39b;
+}
+
+.fenty {
+    position: relative;
+    bottom: -104px;
+}
+.number {
+    position: relative;
+    top: -6px;
+    opacity: 0.2;
+}
+
+.search-page {
+    background-color: blue;
+    height: 100vh;
+}
+.search {
+    text-align: center;
+    position: relative;
+    bottom: -200px;
+}
+
+.button {
+    position: relative;
+    top: 35px;
+}
+.btn-branding {
+    padding: 15px 30px;
+    color: white;
+    font-size: 18px;
+    line-height: 15px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: black;
+}
+
 
 .contact-box {
     background: var(--primary-color);
@@ -33,3 +165,4 @@ footer .social-media-links a {
     transition: all 100ms ease-in-out;
     margin-top: 20px;
 }
+
