@@ -28,6 +28,18 @@ P {
     font-weight: 400;
 }
 
+ .quantity {
+     color: white;
+     border-radius: 50%;
+     background-color: black;
+     position: relative;
+     top: -8px;
+     left: -5px;
+     padding: 0px 4px;
+     font-size: 12px;
+
+ }
+
 .hero {
     position: relative;
     bottom: -100px;
