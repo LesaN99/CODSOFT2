@@ -35,9 +35,21 @@ P {
 
 .brand {
     position: relative;
-    right: -450px;
+    right: -50px;
     padding: 5px;
 }
+
+.item1 {
+position: relative;
+bottom: -52px;
+}
+
+.item2 {
+    position: relative;
+    bottom: -100px;
+
+}
+
 .product {
     border: 1px solid black;
     border-radius: 4px;
@@ -124,19 +136,41 @@ P {
 }
 
 .search-page {
-    background-color: blue;
+    background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/161/original/A.S.-Watson-and-L-Oreal-partner-to-launch-new-makeup-centric-store-Colorlab.jpg?1705647033);
     height: 100vh;
+    opacity: 0.75;
 }
+
+.input1 {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.input2 {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.location {
+    color: red;
+}
+
 .search {
     text-align: center;
     position: relative;
     bottom: -200px;
 }
+.img4 {
+    width: 400px;
+}   
 
 .button {
     position: relative;
-    top: 35px;
+    bottom: -30px;
 }
+
 .btn-branding {
     padding: 15px 30px;
     color: white;
